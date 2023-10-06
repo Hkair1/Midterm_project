@@ -1,0 +1,420 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00bcd4; 
+}
+
+  
+  h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 3.0em;
+    padding-bottom: 20px;
+  }
+  
+  .header-section {
+    background-image: url("https://wallpaperaccess.com/full/1686924.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #45484B;
+    height: 100vh;
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .header-section {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    
+}
+@media (max-width: 768px) {
+    .header-section {
+      background-size: contain;
+    }
+  }
+  
+  .header-section h1 {
+    font-size: 5.5rem;
+  }
+  
+  .intro-text {
+    padding-top: 150px;
+    color: #ffffff;
+  }
+  
+  .intro-text p {
+    font-size: 22px;
+    font-weight: normal;
+    font-style: italics;
+  }
+  
+  .intro-btns {
+    margin-top: 40px;
+  }
+  
+  .profile-pic {
+    margin: 20px auto;
+    width: 250px;
+  }
+  
+  .profile-pic img {
+    border-radius: 100%;
+    border: 3px solid grey;
+    margin-bottom: 40px;
+  }
+  
+  .profile-pic img:hover {
+    border-radius: 3px;
+  }
+  
+  .social-icons {
+    display: inline;
+    margin: 40px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    text-align: center;
+    padding-right: 10px;
+    border: 2px solid #fff;
+    width: 50px;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 100%;
+  }
+  
+  .social-icons a:hover {
+    color: #000;
+    background-color: #fff;
+  }
+  
+  #about {
+    padding-top: 20px;
+    background-color: #fff;
+    color: #333;
+    padding-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  #portfolio {
+    padding-top: 25px;
+  }
+  
+  .portfolio-title {
+    font-weight: bold;
+  }
+  
+  .portfolio-subtitle {
+    font-style: italic;
+  }
+  
+  .thumbnail:hover {
+    background-color: #333;
+    color: #ffffff;
+  }
+  
+  #about h1 {
+    padding-top: 20px;
+  }
+  
+  #contact {
+    background-color: #333;
+  }
+  
+  #contact p {
+    color: #fbfbfb;
+    font-size: 24px;
+    padding: 20px 0;
+  }
+  
+  .contact-btn {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  footer {
+    background-color: #131313;
+  }
+  
+  footer > span {
+    font-size: 15px;
+    color: #555;
+  }
+  
+  .footer-nav {
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .footer-nav li {
+    display: inline;
+    font-weight: 600;
+    padding-right: 20px;
+  }
+  
+  .footer-nav a {
+    color: #79797B;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .footer-nav a:hover {
+    color: #fbfbfb;
+  }
+  
+
+.papers-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.papers-section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.paper-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.paper-box {
+    flex: 0 0 calc(33.33% - 20px); 
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+}
+
+.paper-box a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.paper-box-blue {
+    background-color: #3498db;
+}
+
+.paper-box-green {
+    background-color: #2ecc71;
+}
+
+.paper-box-red {
+    background-color: #e74c3c; 
+}
+
+.paper-box-purple {
+    background-color: #9b59b6; 
+}
+
+.paper-box-orange {
+    background-color: #e67e22; 
+}
+
+.paper-box-yellow {
+    background-color: #f1c40f; 
+}
+
+
+@media (max-width: 768px) {
+    .paper-box {
+        flex-basis: calc(50% - 20px); 
+    }
+}
+
+
+.paper-box:hover {
+    background-color: #f0f0f0; 
+    cursor: pointer;
+}
+
+
+.blogs-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.blogs-section .section-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.blog-image {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.blog-content1 {
+    flex: 1;
+    text-align: left;
+    background-color:#cfb59e69;
+}
+
+.blog-content2 {
+    flex: 1;
+    text-align: left;
+    background-color:#cfb59e69;
+}
+
+.blog-content3 {
+    flex: 1;
+    text-align: left;
+    background-color: #cfb59e69;
+}
+
+
+.images-section {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.images-section .section-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.image {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.image-thumbnail {
+    width: 200px; 
+    height: 200px;
+    object-fit: cover; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons {
+    font-size: 24px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#about .profile-pic img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    #about .profile-pic img {
+      max-width: 100%; 
+      height: auto;
+      margin: 0 auto; 
+      display: block;
+    }
+    
+    #about .col-md-4 {
+      text-align: center; 
+    }
+    
+    #about .container {
+      padding: 20px; 
+    }
+  }
+  
+  
